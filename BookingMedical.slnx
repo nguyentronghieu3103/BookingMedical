@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="BookingMedical.BLL/BookingMedical.BLL.csproj" />
+  <Project Path="BookingMedical.DAL/BookingMedical.DAL.csproj" />
+  <Project Path="BookingMedical.DTO/BookingMedical.DTO.csproj" />
+  <Project Path="BookingMedical.GUI/BookingMedical.GUI.csproj" />
+</Solution>

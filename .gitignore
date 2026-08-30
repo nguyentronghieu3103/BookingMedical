@@ -1,0 +1,8 @@
+# Bỏ qua thư mục biên dịch code
+[Bb]in/
+[Oo]bj/
+
+# Bỏ qua các file cấu hình tạm của Visual Studio
+.vs/
+*.user
+*.suo
