@@ -13,4 +13,36 @@
     <ProjectReference Include="..\BookingMedical.DTO\BookingMedical.DTO.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Forms\Common\" />
+    <Folder Include="Forms\Doctor\" />
+    <Folder Include="Forms\Admin\" />
+    <Folder Include="Forms\Patient\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Resources\" />
+    <Folder Include="UserControls\Doctor\" />
+    <Folder Include="UserControls\Admin\" />
+    <Folder Include="UserControls\Shared\" />
+    <Folder Include="UserControls\Patient\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReaLTaiizor" Version="3.8.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
